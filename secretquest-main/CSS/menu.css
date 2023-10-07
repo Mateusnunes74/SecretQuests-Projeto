@@ -1,0 +1,41 @@
+@import url(../CSS/style.css);
+
+header {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 0fr 2fr 0.1fr;
+    align-items: center;
+}
+
+header > a > img {
+    width: 2rem;
+}
+header > h1 {
+    text-align: center;
+    font-family: "Pixelify Sans", cursive;
+}
+
+body > header:nth-child(1) > img {
+    width: 3rem;
+}
+
+body > nav {
+    background-color: blueviolet;
+    color: black;
+    padding: 0.44rem 0.62rem;
+    font-size: 0.95rem;
+}
+
+body > article {
+    justify-content: center;
+    display: flex;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+article > img {
+height:30rem;
+width: 100rem;
+}
